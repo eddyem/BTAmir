@@ -1,0 +1,23 @@
+<html><head>
+<link   type="text/css" rel="stylesheet" href="BTAmir.css">
+<script type="text/javascript" src="src/webglu.js"></script>
+<script type="application/x-javascript" src="MirSensors.js"></script>
+<script type="application/x-javascript" src="GLutils.js"></script>
+</head>
+
+<body onload='GLutils.start()'>
+<div id="glCanvas">
+<canvas id='canvas' width='100%' height='100%'></canvas><br>
+</div>
+<div id='feedback'></div>
+<div id='temp_min' class='text'></div>
+<div id='temp_max' class='text'></div>
+<div id='temp_ptr' class='text'></div>
+<div id='temp_scale' class='text' onmousemove="MirSensors.ShowTemp(event)"
+onmouseout="document.getElementById('temp_ptr').innerHTML=''"></div>
+<div id='Nasm' class='text'>
+	<div style="background-color:green;">Nasmyth 1 (grn)</div>
+	<div style="background-color:red;">Nasmyth 2 (red)</div>
+</div>
+</body>
+</html>

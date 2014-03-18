@@ -1,0 +1,11 @@
+
+{
+    name: "light",
+    program: {
+        name: "light",
+        shaders: [
+            {name:"light_vs", path:$W.paths.shaders+"light.vert"},
+            {name:"light_fs", path:$W.paths.shaders+"light.frag"}
+        ] 
+    }
+}

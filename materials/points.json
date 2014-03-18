@@ -1,0 +1,10 @@
+{
+    name: "gl_points",
+    program: {
+        name: "points" ,
+        shaders: [
+            {name:"points_vs", path:$W.paths.shaders+"points.vert"},
+            {name:"points_fs", path:$W.paths.shaders+"points.frag"}
+        ] 
+    }
+}

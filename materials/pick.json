@@ -1,0 +1,11 @@
+
+{
+    name: "pick",
+    program: {
+        name: "pick",
+        shaders: [
+            {name:"pick_vs", path:$W.paths.shaders+"pick.vert"},
+            {name:"pick_fs", path:$W.paths.shaders+"pick.frag"}
+        ] 
+    }
+}

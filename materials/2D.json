@@ -1,0 +1,10 @@
+{
+    name: "2D_material",
+    program: {
+        name: "2D" ,
+        shaders: [
+            {name:"2D_vs", path:$W.paths.shaders+"2D.vert"},
+            {name:"2D_fs", path:$W.paths.shaders+"2D.frag"}
+        ] 
+    }
+}
